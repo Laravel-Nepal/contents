@@ -8,7 +8,7 @@ Blog articles, tutorials, and long-form content.
 
 ## Author guideline
 - Profile of the package author(s) should be in the `authors/` folder.
-- Use the `author` field to reference the author's `username` from the `authors/
+- Use the `author_username` field to reference the author's `username` from the `authors/
 
 ## Images guideline
 
@@ -20,7 +20,7 @@ Blog articles, tutorials, and long-form content.
 ```markdown
 ---
 title: Getting Started with Inertia.js in Laravel
-author: achyut
+author_username: achyut
 date: 2025-09-01
 tags: ["laravel", "inertia", "frontend"]
 ---

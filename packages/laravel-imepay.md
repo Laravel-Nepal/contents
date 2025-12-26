@@ -1,6 +1,6 @@
 ---
 name: Laravel Imepay
-author: dipesh79
+author_username: dipesh79
 github: dipesh79/laravel-imepay
 packagist: dipesh79/laravel-imepay
 tags: ["laravel", "payment","imepay"]

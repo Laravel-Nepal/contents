@@ -8,7 +8,7 @@ Short Laravel tips or snippets.
 
 ## Author guideline
 - Profile of the package author(s) should be in the `authors/` folder.
-- Use the `author` field to reference the author's `username` from the `authors/
+- Use the `author_username` field to reference the author's `username` from the `authors/
 
 ## Image guideline
 - Recommended size: 1200 x 630px (for social sharing)

@@ -1,6 +1,6 @@
 ---
 name: LogArc Laravel
-author: dipesh79
+author_username: dipesh79
 github: LogArcOfficial/logarc-laravel
 packagist: dipesh79/logarc-laravel
 tags: ["laravel", "log","logarc"]
