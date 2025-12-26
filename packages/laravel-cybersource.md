@@ -1,6 +1,6 @@
 ---
 name: Laravel Cybersource
-author: dipesh79
+author_username: dipesh79
 github: dipesh79/laravel-cybersource
 packagist: dipesh79/laravel-cybersource
 tags: ["laravel", "payment","cybersource"]

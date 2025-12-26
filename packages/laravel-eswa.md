@@ -1,6 +1,6 @@
 ---
 name: Laravel Esewa
-author: dipesh79
+author_username: dipesh79
 github: dipesh79/laravel-esewa
 packagist: dipesh79/laravel-esewa
 tags: ["laravel", "payment","esewa"]

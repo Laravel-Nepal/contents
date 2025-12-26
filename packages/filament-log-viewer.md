@@ -1,6 +1,6 @@
 ---
 name: Filament Log Viewer
-author: achyut
+author_username: achyut
 github: achyutkneupane/filament-log-viewer
 packagist: achyutn/filament-log-viewer
 tags: ["laravel", "filament", "log viewer"]

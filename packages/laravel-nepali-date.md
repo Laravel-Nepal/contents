@@ -1,6 +1,6 @@
 ---
 name: Laravel Nepali Date
-author: anuzpandey
+author_username: anuzpandey
 github: anuzpandey/laravel-nepali-date/
 packagist: anuzpandey/laravel-nepali-date
 tags: ["laravel", "nepali-date-converter", "laravel-nepali-date", "laravel-ad-to-bs", "laravel-bs-to-ad"]
