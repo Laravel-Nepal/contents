@@ -23,6 +23,7 @@ title: Getting Started with Inertia.js in Laravel
 author_username: achyut
 date: 2025-09-01
 tags: ["laravel", "inertia", "frontend"]
+canonical_url: https://laravelnepal.com/posts/getting-started-with-inertiajs-in-laravel
 ---
 
 Inertia.js allows you to build modern single-page applications using classic Laravel routing...
