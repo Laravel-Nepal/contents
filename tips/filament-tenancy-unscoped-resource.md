@@ -1,7 +1,7 @@
 ---
 title: Unscope a Filament Resource in a Multi-Tenancy Panel
 slug: filament-tenancy-unscoped-resource
-author: achyut
+author_username: achyut
 date: 2025-09-02
 tags: ["filament", "multi-tenancy", "laravel", "php"]
 ---

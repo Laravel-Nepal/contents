@@ -8,13 +8,13 @@ Community videos, tutorials, or recorded meetups.
 
 ## Author guideline
 - Profile of the package author(s) should be in the `authors/` folder.
-- Use the `author` field to reference the author's `username` from the `authors/
+- Use the `author_username` field to reference the author's `username` from the `authors/
 
 ## Example
 ```markdown
 ---
 title: Intro to Laravel Livewire
-author: achyut
+author_username: achyut
 youtube: xxxxxxxx // YouTube video ID
 date: 2025-08-30
 tags: ["laravel", "livewire"]
