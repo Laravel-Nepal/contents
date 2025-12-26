@@ -1,13 +1,13 @@
 # Projects
 
-Showcase of projects built by Nepali developers.
+Showcase of open-source projects built by Nepali developers.
 
 ## File format
 - One file per project → `slug.md`
 - Use Frontmatter for metadata.
 
 ## Author guideline
-- Profile of the package author(s) should be in the `authors/` folder.
+- Profile of the project author(s) should be in the `authors/` folder.
 - Use the `author_username` field to reference the author's `username` from the [`authors`](../authors) folder.
 
 ## Images guideline

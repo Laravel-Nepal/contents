@@ -7,7 +7,7 @@ Short Laravel tips or snippets.
 - Use Frontmatter for metadata.
 
 ## Author guideline
-- Profile of the package author(s) should be in the `authors/` folder.
+- Profile of the tips author(s) should be in the `authors/` folder.
 - Use the `author_username` field to reference the author's `username` from the [`authors`](../authors) folder.
 
 ## Image guideline
