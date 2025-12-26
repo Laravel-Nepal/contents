@@ -12,4 +12,4 @@ But while Filament gives you tools for managing your resources, content, and use
 
 So I built [**Filament Log Viewer**](https://github.com/achyutkneupane/filament-log-viewer), a plugin that lets you browse, search, and filter your Laravel logs right from the Filament UI.
 
-[Read Full Blog](https://medium.com/@achyutneupane/log-viewer-for-filament-stack-traces-filters-and-more-3767b4d8fa8b)
+[*...Read Full Post*](https://medium.com/@achyutneupane/log-viewer-for-filament-stack-traces-filters-and-more-3767b4d8fa8b)
