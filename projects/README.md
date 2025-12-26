@@ -21,7 +21,7 @@ title: Laravel Nepal
 author_username: achyut
 github: Laravel-Nepal/laravelnepal.com
 website: https://laravelnepal.com
-tags: ["laravel", "react", "inertia"]
+tags: ["laravel", "livewire", "filament"]
 ---
 
 A community platform for Laravel developers in Nepal.
