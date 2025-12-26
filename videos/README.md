@@ -8,7 +8,7 @@ Community videos, tutorials, or recorded meetups.
 
 ## Author guideline
 - Profile of the package author(s) should be in the `authors/` folder.
-- Use the `author_username` field to reference the author's `username` from the `authors/
+- Use the `author_username` field to reference the author's `username` from the [`authors`](../authors) folder.
 
 ## Example
 ```markdown
