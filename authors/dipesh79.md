@@ -5,7 +5,7 @@ username: dipesh79
 linkedin: dipeshkhanal
 github: dipesh79
 x: dipeshkhanal_py
-website: https://dipeshkhanal.com.np
+website: https://khanaldipesh.com.np
 bio: Senior Laravel Backend Developer
 ---
 
