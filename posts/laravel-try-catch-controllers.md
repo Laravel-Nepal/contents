@@ -1,6 +1,5 @@
 ---
 title: When and When Not to Use Try Catch in Laravel Controllers
-slug: laravel-try-catch-controllers
 author_username: dipesh79
 date: 2026-01-02
 tags: ["laravel", "php", "controllers", "exceptions"]
