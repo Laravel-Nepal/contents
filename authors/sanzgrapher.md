@@ -6,7 +6,7 @@ linkedin: narayandhakal09
 github: sanzgrapher
 x: 
 website: https://narayan-dhakal.com.np
-bio: Mid Laraver Developer
+bio: Mid Laravel Developer
 ---
 
 # Narayan Dhakal
