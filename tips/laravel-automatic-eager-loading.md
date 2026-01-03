@@ -2,7 +2,7 @@
 title: Kill the N+1 Problem with Automatic Eager Loading in Laravel
 slug: laravel-automatic-eager-loading
 author_username: dipesh79
-date: 2026-01-01
+date: 2026-01-03
 tags: [\"laravel\", \"eloquent\", \"performance\", \"database\"]
 ---
 
