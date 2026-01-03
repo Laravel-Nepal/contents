@@ -1,9 +1,9 @@
 ---
 title: Kill the N+1 Problem with Automatic Eager Loading in Laravel
-slug: laravel-automatic-eager-loading
 author_username: dipesh79
 date: 2026-01-03
 tags: ["laravel", "eloquent", "performance", "database"]
+canonical_url: https://laranepal.com/blog/automatically-eager-load-relationships
 ---
 
 By default, Laravel uses lazy loading for relationships. This can silently introduce the N+1 query problem when accessing nested relationships in loops.
