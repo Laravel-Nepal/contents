@@ -1,5 +1,6 @@
 ---
 title: Generate Form, Infolist, and Table file for simple resource in Filament
+description: A method for creating a simple resource in Filament with separate files for form, infolist, and table components instead of embedding them within the resource file.
 slug: filament-simple-resource-not-embedded
 author_username: achyut
 date: 2026-01-06
