@@ -17,11 +17,9 @@ composer require achyutn/laravel-news-sdk
 ## Usage
 
 ```php
-use AchyutN\LaravelNews\LaravelNews;
+use AchyutN\LaravelNews\Facades\LaravelNews;
 use AchyutN\LaravelNews\Data\Link;
 use AchyutN\LaravelNews\Enums\LinkCategory;
-
-$client = new LaravelNews($_ENV['LARAVEL_NEWS_TOKEN']);
 
 $link = new Link(
     title: 'Laravel News SDK',
@@ -29,7 +27,7 @@ $link = new Link(
     category: LinkCategory::Package
 );
 
-$item = $client->post($link);
+$item = LaravelNews::post($link);
 
 echo $item->id;
 echo $item->title;
