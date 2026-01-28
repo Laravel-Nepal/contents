@@ -1,5 +1,5 @@
 ---
-title: Collections Get hasSole() method in Laravel 12.49
+title: Collections gets hasSole() method in Laravel 12.49
 description: Laravel 12.49 introduces the hasSole() collection method, a clearer and more expressive replacement for containsOneItem() with full filter support.
 author_username: achyut
 date: 2026-01-28
