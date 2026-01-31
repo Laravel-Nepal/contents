@@ -10,6 +10,8 @@ Long before it became the titan of the PHP ecosystem, Laravel began as a framewo
 
 Looking at its "Day 1" directory structure today is like peering into a time capsule. The framework was essentially a collection of PHP files organized into folders, each serving a specific purpose.
 
+The single source of truth here is the commit [a188d6](https://github.com/laravel/laravel/tree/a188d62105532fcf2a2839309fb71b862d904612). The repository was first owned by [Taylor Otwell](https://github.com/taylorotwell) and named "laravel". The initial commit was made on June 9, 2011, marking the birth of what would become one of the most popular PHP frameworks in the world.
+
 ## The Day-1 Folder Structure
 
 At first glance, the Laravel directory structure feels deceptively simple. This structure was a breath of fresh air.
