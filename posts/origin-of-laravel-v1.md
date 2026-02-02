@@ -12,6 +12,8 @@ Looking at its "Day 1" directory structure today is like peering into a time cap
 
 The single source of truth here is the commit [a188d6](https://github.com/laravel/laravel/tree/a188d62105532fcf2a2839309fb71b862d904612). The repository was first owned by [Taylor Otwell](https://github.com/taylorotwell) and named "laravel". The initial commit was made on June 9, 2011, marking the birth of what would become one of the most popular PHP frameworks in the world.
 
+![Laravel v1 Landing Page](https://hamrocdn.com/UGMGLSINgqJ9)
+
 ## The Day-1 Folder Structure
 
 At first glance, the Laravel directory structure feels deceptively simple. This structure was a breath of fresh air.
@@ -235,6 +237,8 @@ One of the most impressive features was the `context()` method in `system/error.
 - Read a few lines before and after the error (the "padding").
 - Pass that code snippet to the error view.
 
+![Laravel v1 Error Page](https://hamrocdn.com/7z9aOowqfC9p)
+
 This allowed the error page to show you a code preview of exactly where the crash happened, complete with line numbers.
 
 The `system/log.php` file is a masterclass in file management. Unlike modern Laravel, which leverages the powerful [Monolog](https://github.com/Seldaek/monolog) library, v1 used a custom-built solution that was both lightweight and surprisingly organized.
@@ -244,6 +248,8 @@ $directory = APP_PATH.'logs/'.date('Y').'/'.date('m');
 ```
 
 It automatically generated a nested folder structure: `logs/YEAR/MONTH/DAY.php`. This ensured that logs were naturally rotated and easy to navigate via FTP. If your site crashed on a certain day, you knew exactly which folder to look in.
+
+![Laravel v1 404 Error Page](https://hamrocdn.com/ZkrLGfJhdZqY)
 
 There exists a `system/views/error/exception.php` file which was responsible for rendering uncaught exceptions.
 
