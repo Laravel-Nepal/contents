@@ -1,6 +1,6 @@
 ---
-title: Stacked Table Rows on Mobile in Filament
-description: Filament now supports stacking table rows on mobile, making tables more readable on small screens without losing desktop usability.
+title: Stacked Table Rows on Mobile in Filament v5.2 and v4.7
+description: Filament v5.2 and v4.7 introduce stacked table rows for mobile, improving readability on small screens while keeping the desktop table layout intact.
 author_username: achyut
 date: 2026-02-06
 tags: ["filament", "laravel", "responsive design"]
@@ -57,16 +57,16 @@ public function table(Table $table): Table
 ## How it looks
 
 - **Desktop**: Standard table layout  
-![Desktop Preview of the stacked table](https://hamrocdn.com/gJV4A2wZVtL0)
+![Desktop view of Filament table with stacked rows on mobile enabled](https://hamrocdn.com/gJV4A2wZVtL0)
 
 - **Mobile**: Each row displays as a card with the column label above the value
-![Mobile Preview of the stacked table](https://hamrocdn.com/5BWwn3fgLZD3)
+![Mobile view of Filament table showing each row as a card with labels above values](https://hamrocdn.com/5BWwn3fgLZD3)
 
 - **Sortable columns**: A sort dropdown appears at the top of the table
-![Sortable columns on mobile](https://hamrocdn.com/u3sp6bzMmkoC)
+![Sort dropdown for sortable columns in mobile stacked table layout](https://hamrocdn.com/u3sp6bzMmkoC)
 
 - **Bulk selection**: Checkbox appears at the top for mobile rows
-![Bulk selection on mobile](https://hamrocdn.com/fGmrzESmhC0x)
+![Bulk selection checkbox at the top of mobile stacked table rows](https://hamrocdn.com/fGmrzESmhC0x)
 
 This method is ideal for simple responsive tables without restructuring your column layout.
 
@@ -100,9 +100,9 @@ Split::make([
 
 Output:
 
-![Split and Stack layout on desktop](https://hamrocdn.com/oHSLq3etuQaN)
+![Desktop view of Filament table using Split and Stack layout](https://hamrocdn.com/oHSLq3etuQaN)
 
-![Split and Stack layout on mobile](https://hamrocdn.com/yUFw2R9EwKAO)
+![Mobile view of Filament table using Split and Stack layout](https://hamrocdn.com/yUFw2R9EwKAO)
 
 This gives developers fine-grained control over table layouts, while `stackedOnMobile()` provides a simple, automatic mobile-friendly solution.
 
