@@ -6,7 +6,9 @@ date: 2026-02-06
 tags: ["filament", "laravel", "responsive design"]
 ---
 
-Filament [v5.2.0](https://github.com/filamentphp/filament/releases/tag/v5.2.0) (along with [v4.7.0](https://github.com/filamentphp/filament/releases/tag/v4.7.0)) introduces a practical improvement for table responsiveness: **stacked table rows on mobile**. This change improves readability on small screens while preserving the traditional table layout on larger displays.
+Filament [v5.2.0](https://github.com/filamentphp/filament/releases/tag/v5.2.0) (along with [v4.7.0](https://github.com/filamentphp/filament/releases/tag/v4.7.0)) introduces a practical improvement for table responsiveness: **stacked table rows on mobile**.
+
+The new `stackedOnMobile()` method allows developers to easily enable this behavior for any Filament table. This change improves readability on small screens while preserving the traditional table layout on larger displays.
 
 This feature was introduced in [Pull Request #19113](https://github.com/filamentphp/filament/pull/19113) by [Martijn Wagena ](https://github.com/mwagena), and it marks their first contribution to Filament.
 
@@ -38,10 +40,15 @@ public function table(Table $table): Table
 {
     return $table
         ->columns([
-            TextColumn::make('name')->searchable()->sortable(),
-            TextColumn::make('email'),
-            TextColumn::make('phone'),
-            TextColumn::make('job'),
+            TextColumn::make('title')
+                ->searchable(),
+            TextColumn::make('type')
+                ->badge()
+                ->searchable(),
+            TextColumn::make('views_count')
+                ->label('Views')
+                ->counts('views')
+                ->badge()
         ])
         ->stackedOnMobile();
 }
@@ -49,10 +56,17 @@ public function table(Table $table): Table
 
 ## How it looks
 
-- **Desktop**: Standard table layout
+- **Desktop**: Standard table layout  
+![Desktop Preview of the stacked table](https://hamrocdn.com/gJV4A2wZVtL0)
+
 - **Mobile**: Each row displays as a card with the column label above the value
+![Mobile Preview of the stacked table](https://hamrocdn.com/5BWwn3fgLZD3)
+
 - **Sortable columns**: A sort dropdown appears at the top of the table
+![Sortable columns on mobile](https://hamrocdn.com/u3sp6bzMmkoC)
+
 - **Bulk selection**: Checkbox appears at the top for mobile rows
+![Bulk selection on mobile](https://hamrocdn.com/fGmrzESmhC0x)
 
 This method is ideal for simple responsive tables without restructuring your column layout.
 
@@ -69,13 +83,26 @@ use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 
 Split::make([
-    TextColumn::make('name')->sortable(),
+    TextColumn::make('title')
+        ->sortable()
+        ->searchable(),
     Stack::make([
-        TextColumn::make('email'),
-        TextColumn::make('phone'),
-    ])->visibleFrom('md'),
+        TextColumn::make('type')
+            ->badge()
+            ->searchable(),
+        TextColumn::make('views_count')
+            ->label('Views')
+            ->counts('views')
+            ->badge(),
+    ]),
 ]);
 ```
+
+Output:
+
+![Split and Stack layout on desktop](https://hamrocdn.com/oHSLq3etuQaN)
+
+![Split and Stack layout on mobile](https://hamrocdn.com/yUFw2R9EwKAO)
 
 This gives developers fine-grained control over table layouts, while `stackedOnMobile()` provides a simple, automatic mobile-friendly solution.
 
