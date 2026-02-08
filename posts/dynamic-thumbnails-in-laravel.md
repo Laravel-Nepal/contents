@@ -156,7 +156,7 @@ class ThumbnailService
 
 #### Breaking Down Browsershot Options
 
-- `windowSize(1200, 630)`: ets the viewport size. This is the standard Open Graph size for Twitter and Facebook. If your content flows outside this box, it won't be captured.
+- `windowSize(1200, 630)`: Sets the viewport size. This is the standard Open Graph size for Twitter and Facebook. If your content flows outside this box, it won't be captured.
 - `deviceScaleFactor(2)`: Simulates a Retina display. This captures twice as many pixels, making text and vectors crisp. Without this, text can look fuzzy or pixelated. Available options are: `1`, `2`, and `3`.
 - `waitUntilNetworkIdle()`: Tells the browser to wait until all network requests (images, fonts, CSS) have finished loading before taking the screenshot. Crucial if you load external fonts or avatars.
 - `setNodeBinary()` and `setNpmBinary()`: Explicitly tells PHP where Node is installed. On local machines, PHP often finds it automatically. On servers (Ubuntu/Nginx), the `www-data` user often doesn't have Node in its `$PATH`, so you must set this manually.
@@ -177,6 +177,7 @@ class ShowAnalyticsCardController extends Controller
         $url = $generator->generate($user);
 
         return response()->file($url, [
+            'Content-Type' => 'image/png',
             'Content-Disposition' => 'inline; filename="'.$user->id.'.png"',
             'Cache-Control' => 'public, max-age=604800, immutable',
         ]);
