@@ -134,15 +134,14 @@ public function register(): void
 
 ## Laravel Versions Supported by Telescope
 
-Laravel Telescope has kept pace with the framework itself. Here's a quick version compatibility overview:
+Laravel Telescope has kept pace with the framework itself:
 
-| Telescope Version | Laravel Version | PHP Requirement |
-|---|---|---|
-| Telescope 5.x | Laravel 11.x | PHP 8.2+ |
-| Telescope 4.x | Laravel 9.x – 10.x | PHP 8.0+ |
-| Telescope 3.x | Laravel 8.x | PHP 7.3+ |
-| Telescope 2.x | Laravel 7.x | PHP 7.2.5+ |
-| Telescope 1.x | Laravel 5.7 – 6.x | PHP 7.1+ |
+- **Telescope 5.x** — Laravel 12.x — PHP 8.3+
+- **Telescope 5.x** — Laravel 11.x — PHP 8.2+
+- **Telescope 4.x** — Laravel 9.x – 10.x — PHP 8.0+
+- **Telescope 3.x** — Laravel 8.x — PHP 7.3+
+- **Telescope 2.x** — Laravel 7.x — PHP 7.2.5+
+- **Telescope 1.x** — Laravel 5.7 – 6.x — PHP 7.1+
 
 Always check the [official Telescope documentation](https://laravel.com/docs/telescope) for the latest compatibility matrix, especially after major Laravel releases. The Telescope team typically releases a compatible version quickly after each new framework version drops.
 
