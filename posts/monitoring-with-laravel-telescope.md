@@ -1,12 +1,11 @@
 ---
-
-title: Stop Guessing, Start Observing: Laravel Telescope
+title: Stop Guessing, Start Observing - Laravel Telescope
 description: Laravel Telescope is a real-time debug dashboard that captures requests, queries, jobs, and exceptions. Learn how to install it, configure it safely for production, and use it to spot redundant queries and debug issues instantly.
 author_username: samaya
 date: 2026-02-18
 tags: ["laravel", "telescope", "monitoring", "debugging"]
-
 ---
+
 > *Deploying Laravel apps, but blind to what is happening? When production breaks or requests crawl, you are still hunting through logs and sprinkling `dd()` everywhere. There is a better way.*
 
 ---
