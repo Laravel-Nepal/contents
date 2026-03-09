@@ -2,7 +2,7 @@
 title: Laravel Fluent Class - The Flexible Little Container You Should Know About
 description: Laravel Fluent class ia simple, dynamic object wrapper that provides clean property access and method chaining. Explore when to use it (pipelines, events, API responses) and when to avoid it (strict DTOs, domain models) with practical examples.
 author_username: samaya
-date: 2026-02-23
+date: 2026-03-09
 tags: ["laravel", "fluent", "design-patterns", "best-practices"]
 ---
 
