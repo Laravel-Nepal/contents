@@ -39,4 +39,4 @@ return $user; // returns User model
 - Avoids temporary variables or extra lines
 - Makes intent clear when modifying and returning the same object
 
-It’s a small helper, but it can make your service and controller code cleaner and easier to read.",
+It’s a small helper, but it can make your service and controller code cleaner and easier to read.
